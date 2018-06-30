@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import styled, { ThemeProvider } from 'styled-components';
 
 // Pages
@@ -55,13 +55,13 @@ const PreviewPage = props => {
   )
 }
 
-const AboutPage = props => {
-  return (
-    <div>
-      <p>Bitcoin: 194ARGaVhPY3THBR8deR6S5tQdmiQ8ewr7</p>
-    </div>
-  )
-}
+// const AboutPage = props => {
+//   return (
+//     <div>
+//       <p>Bitcoin: 194ARGaVhPY3THBR8deR6S5tQdmiQ8ewr7</p>
+//     </div>
+//   )
+// }
 
 class App extends Component {
   constructor(props) {
