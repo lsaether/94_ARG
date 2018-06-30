@@ -30,12 +30,20 @@ const GridX = styled.div`
 const Left = styled.div`
   width: calc(25%);
   margin-left: -10px;
+  @media (max-width: 450px) {
+    margin-left: -5px;
+    width: 100%;
+  }
 `
 
 const Middle = styled.div`
   width: calc(75%);
   margin-left: 20px;
   margin-right: -10px;
+  @media (max-width: 450px) {
+    width: 100%;
+    margin-left: -5px;
+  }
 `
 
 const ArticleWrapper = styled.div`
