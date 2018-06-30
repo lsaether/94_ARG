@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/lsaether/94arg.com.svg?branch=master)](https://travis-ci.org/lsaether/94arg.com)
+
 # [94arg.com](https://94arg.com)
 
 94_ARG is a digital culture e-zine featuring writing about the internet, blockchain, hackers and makers, economics, game theory, or whatever else we decide to write about.
