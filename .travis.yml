@@ -10,3 +10,8 @@ cache:
 install: npm install
 script:
   - npm run build
+deploy:
+  provider: firebase
+  token:
+    secure: 
+      - "RmHRDVrwBkDZ2Vo6+O5x34Aj68VEMXniCLMpweeXrkf0TpMmOv+KBfDI0ynhDXx1tyLFG7Ap+RsMdGUcA3qJSGu+qYY68LYq9zTYhccN4xQbWVqfJK49vhTA7py29ebFigIRuOBoYh9JVkOgfyxfagMdqdz6Dd3/QiHafP77lJdgD9WGzcyd8pdC9NTRsx/YREXh89qnc6AGVxZNZeBLy+UY9P/+VTvXws0N+s50rokgOXnuwll9RIJJamge0VDgP20AjfQVwsLbrCinzUUrLlFnv9VHBvt/ytHmaLf7wOrQe2sXZ3BOo3gRpTn4dHrR1vKHvLwbFt7ZPHSCcgNkQOy1HIU/sKUVHppZhGmY3BeLvn1npLMtiHwk6o6faUiAxDGenNbZ9ZWgSxpxIQNBryu7WCRyVNyt4G+A7XWDLTSWNZsW3Y15xg8TGebQzDwx/AF/stWNqyZbiX7r2xmzoQ/ePU+KwDowjYdUg/CIXfp67IZm4dGMZ6xs1g6TRDfPnkyvtMICGz/D4wC68zgEjUIoqPaktTZfpS2UW3TCmFhTwHxfUDuGh6sV0LdCNFycgZkh5fiQ1ctSHsmQOSR8jpkv5zzQsvDP35Xk8meSqAU2VjYZMDff6ZlcD7x1nTX6YAEgVULDiPVvqOUYPNggYejg2/Hs0C8ArVDPmn4dDoc="
